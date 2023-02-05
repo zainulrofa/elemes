@@ -172,7 +172,23 @@ function App() {
                   <p className={style["cardTop__content--ingredients"]}>
                     Tomato
                   </p>
-                  <div className={style["cardTop__content--rating"]}></div>
+                  <div className={style["cardTop__rating"]}>
+                    <i
+                      className={`fa-solid fa-star ${style["cardTop__rating--fulfilled"]}`}
+                    ></i>
+                    <i
+                      className={`fa-solid fa-star ${style["cardTop__rating--fulfilled"]}`}
+                    ></i>
+                    <i
+                      className={`fa-solid fa-star ${style["cardTop__rating--fulfilled"]}`}
+                    ></i>
+                    <i
+                      className={`fa-solid fa-star ${style["cardTop__rating--fulfilled"]}`}
+                    ></i>
+                    <i
+                      className={`fa-solid fa-star ${style["cardTop__rating--unfulfilled"]}`}
+                    ></i>
+                  </div>
                 </div>
               </div>
             </div>
@@ -257,7 +273,23 @@ function App() {
               />
               <p className={style["cardProduct__name"]}>{e.name}</p>
               <p className={style["cardProduct__categories"]}>{e.category}</p>
-              <div className="cardProduct__rating"></div>
+              <div className="cardProduct__rating">
+                <i
+                  className={`fa-solid fa-star ${style["cardProduct__rating--fulfilled"]}`}
+                ></i>
+                <i
+                  className={`fa-solid fa-star ${style["cardProduct__rating--fulfilled"]}`}
+                ></i>
+                <i
+                  className={`fa-solid fa-star ${style["cardProduct__rating--fulfilled"]}`}
+                ></i>
+                <i
+                  className={`fa-solid fa-star ${style["cardProduct__rating--fulfilled"]}`}
+                ></i>
+                <i
+                  className={`fa-solid fa-star ${style["cardProduct__rating--unfulfilled"]}`}
+                ></i>
+              </div>
             </div>
           ))}
           <div className={style["productBtn"]}>
@@ -268,7 +300,10 @@ function App() {
       <Footer />
       {/* mobile bar */}
       <div className={style["footerBar"]}>
-        <div className={style["footerBar__wrapper"]}>
+        <div
+          className={style["footerBar__wrapper"]}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           <i
             className={`fa-solid fa-bars ${style["footerBar_wrapper--bar"]}`}
           ></i>

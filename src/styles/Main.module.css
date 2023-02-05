@@ -121,6 +121,15 @@
     color: #757575;
     font-size: 12px;
     font-weight: 400;
+    margin: 0;
+}
+
+.cardTop__rating--fulfilled {
+    color: #FF8412;
+}
+
+.cardTop__rating--unfulfilled {
+    color: #C9C9C9;
 }
 
 .categoriesSlider {
@@ -263,6 +272,14 @@
     margin: 0;
 }
 
+.cardProduct__rating--fulfilled {
+    color: #FF8412;
+}
+
+.cardProduct__rating--unfulfilled {
+    color: #C9C9C9;
+}
+
 .productBtn {
     display: flex;
     justify-content: center;
@@ -387,10 +404,14 @@
     }
 
     .footerBar {
+        background-color: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1rem 2rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 
     .footerBar__wrapper {

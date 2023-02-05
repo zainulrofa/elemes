@@ -11,7 +11,7 @@ function Header() {
   const [user, setUser] = useState(false);
 
   return (
-    <header className="container-fluid ">
+    <header className={`container-fluid`}>
       <div className="container">
         <div className="row my-4">
           <div className="col-lg-3 col-6">
