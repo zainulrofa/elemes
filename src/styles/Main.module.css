@@ -225,7 +225,7 @@
 
 .productWrapper {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     margin-top: 2rem;
 }
