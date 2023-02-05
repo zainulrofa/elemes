@@ -1,0 +1,96 @@
+.logo:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar ol li {
+    position: relative;
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.navbar ol li:hover {
+    color: #8BAC3E;
+    cursor: pointer;
+}
+
+.navbar__promotions--notif {
+    position: absolute;
+    top: 25px;
+    right: 46%;
+    color: white;
+    background-color: #E7462D;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 8px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.button__signin {
+    border: none;
+    background-color: transparent;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button__signin:hover {
+    font-size: 15px;
+    transition: all .2s;
+}
+
+.button__signup {
+    border: none;
+    width: 60%;
+    background-color: #8BAC3E;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 10px 18px;
+}
+
+.button__signup:hover {
+    opacity: .9;
+    transition: all .5s;
+}
+
+@media screen and (max-width: 390px) {
+    .logo img {
+        width: 150px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .button__signin {
+        display: none;
+    }
+
+    .button__signup {
+        width: 100%;
+    }
+}

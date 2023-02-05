@@ -1,0 +1,129 @@
+footer {
+    font-family: Rubik;
+}
+
+.wrapper {
+    background-color: #F9FFF6;
+    border-radius: 20px;
+    padding: 74px 55px;
+}
+
+.address p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1rem 0;
+    padding-right: 2rem;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon__wrapper {
+    position: relative;
+    width: 40px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.icon i {
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    color: #8BAC3E;
+    font-size: 15px;
+}
+
+.icon .icon__wrapper:hover {
+    background-color: #8BAC3E;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.icon .icon__wrapper:hover i {
+    color: white;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.categories__title, .aboutus__title, .newsletter__title {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.categories ol, .aboutus ol {
+    padding: 1rem 0;
+}
+
+.categories ol li, .aboutus ol li {
+    list-style: none;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.categories ol li:hover, .aboutus ol li:hover {
+    cursor: pointer;
+    color: #8BAC3E;
+    user-select: none;
+}
+
+.newsletter__promo {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1.5rem 0 1rem;
+}
+
+.newsletter__suggestion--input {
+    padding: 8px 15px;
+    width: 75%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.newsletter__suggestion--button {
+    border: none;
+    background-color: #8BAC3E;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 12px 8px;
+}
+
+.newsletter__suggestion--button:hover {
+    opacity: .8;
+    transition: all .8s;
+}
+
+.newsletter__email, .newsletter__phone {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: .3rem;
+}
+
+.newsletter__email i, .newsletter__phone i  {
+    color: #8BAC3E;
+    font-size: 16px;
+}
+
+.newsletter__email p, .newsletter__phone p {
+    display: flex;
+    margin: 0;
+}
+
+.copyright {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0;
+}
